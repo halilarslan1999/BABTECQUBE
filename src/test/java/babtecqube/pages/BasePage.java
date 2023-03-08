@@ -1,6 +1,7 @@
 package babtecqube.pages;
 
-import computop.utilities.Driver;
+
+import babtecqube.utilities.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class BasePage {

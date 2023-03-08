@@ -3,7 +3,7 @@ Feature: Homepage menus of Babtecqube
   Background:
     Given The user navigates to the home page
 
-
+  @bab
   Scenario Outline: Verify that the user should be able to navigate to the related menus by clicking the buttons on the Homepage
     When The user clicks the "<menus>" menu
     Then The user should see the "<urls>" text
