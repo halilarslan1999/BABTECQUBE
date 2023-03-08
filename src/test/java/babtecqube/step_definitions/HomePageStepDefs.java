@@ -1,6 +1,6 @@
 package babtecqube.step_definitions;
 
-import babtecqube.pages.HomePage;
+import babtecqube.pages.BabtecQubeWebPage.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,12 +11,13 @@ public class HomePageStepDefs {
     HomePage homePage = new HomePage();
 
     @Given("The user navigates to the home page")
-    public void the_user_navigates_to_the_home_page(){
+    public void the_user_navigates_to_the_home_page() {
         homePage.navigationToHomePage();
     }
 
     @When("The user clicks the {string} menu")
     public void the_user_clicks_the_menu(String menus) {
+
         homePage.navigationToMenus(menus);
     }
 

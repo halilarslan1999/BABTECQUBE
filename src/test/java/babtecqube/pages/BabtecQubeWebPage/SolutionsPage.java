@@ -1,11 +1,12 @@
-package babtecqube.pages;
+package babtecqube.pages.BabtecQubeWebPage;
 
+import babtecqube.pages.BasePage;
 import babtecqube.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SolutionsPage extends BasePage{
+public class SolutionsPage extends BasePage {
 
     @FindBy(xpath = "//li[text()='Equipment & Gages']")
     public WebElement SubMenus;

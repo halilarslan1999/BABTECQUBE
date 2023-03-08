@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "babtecqube/step_definitions",
         dryRun = false,
-        tags = "@bab"
+        tags = "@test2"
 )
 public class CukesRunner {
 

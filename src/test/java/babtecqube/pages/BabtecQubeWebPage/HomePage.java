@@ -1,5 +1,6 @@
-package babtecqube.pages;
+package babtecqube.pages.BabtecQubeWebPage;
 
+import babtecqube.pages.BasePage;
 import babtecqube.utilities.BrowserUtils;
 import babtecqube.utilities.ConfigurationReader;
 import babtecqube.utilities.Driver;
@@ -7,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 
     @FindBy(xpath = "//span[contains(text(),'Solutions')]")
     public WebElement solutions;
