@@ -1,4 +1,4 @@
-@test1
+@test
 Feature: Homepage menus of Babtecqube
 
   Background:

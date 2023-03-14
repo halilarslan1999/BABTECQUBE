@@ -1,5 +1,5 @@
 
-@test2
+@test
 Feature: Manage User Profile
 
   Background:

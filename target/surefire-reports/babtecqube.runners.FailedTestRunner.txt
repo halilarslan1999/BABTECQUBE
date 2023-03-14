@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: babtecqube.runners.FailedTestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.092 s <<< FAILURE! - in babtecqube.runners.FailedTestRunner
-Manage User Profile.Verify that the user can change  Time elapsed: 11.31 s  <<< FAILURE!
-java.lang.AssertionError: Enter your Email Address warning appeared 
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at babtecqube.step_definitions.ManageUserProfileStepDefs.user_leaves_email_field_blank(ManageUserProfileStepDefs.java:140)
-	at ✽.User leaves email field blank and clicks cancel button on Change Mail page(file:///C:/Users/User/IdeaProjects/BabtecQube/src/test/resources/features/ManageUserProfile.feature:48)
-
-Manage User Profile.Verify that the user can change  Time elapsed: 11.728 s  <<< FAILURE!
-java.lang.AssertionError: Enter your Email Address warning appeared 
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at babtecqube.step_definitions.ManageUserProfileStepDefs.user_leaves_email_field_blank(ManageUserProfileStepDefs.java:140)
-	at ✽.User leaves email field blank and clicks cancel button on Change Mail page(file:///C:/Users/User/IdeaProjects/BabtecQube/src/test/resources/features/ManageUserProfile.feature:48)
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in babtecqube.runners.FailedTestRunner
